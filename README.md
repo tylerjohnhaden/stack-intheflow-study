@@ -10,8 +10,13 @@ Although these changes may be related to the given problems, they don't directly
  - https://github.com/stefan-niedermann/nextcloud-notes/pull/185/files
 
 ### Problem Statement :
- - Users are able to delete notes by swiping left or right when viewing the note-list screen. However, some users are reporting that it is not clear what the swipe motion does until after the note is deleted. Also, some have said that the swipe motion requires too little horizontal distance and therefore makes it easy to accidently delete notes.
- - Help improve the app by adding an icon/animation that appears when the user attempts to swipe a note. It should inform the user that if the swipe is completed, the note will be deleted. Also, make the it harder for a user to accidently delete a note through swiping by making the swipe motion longer. 
+ - Users are able to delete notes by swiping left or right when viewing the note-list screen. However, some users are reporting that it is not clear what the swipe motion does until after the note is deleted, and that it is too easy to delete on accident.
+ - Help improve the app by adding an icon that appears when the user attempts to swipe a note. It should inform the user that if the swipe is completed, the note will be deleted. Also, make the it harder for a user to accidently delete a note through swiping by making the swipe motion longer. 
+
+*Without the delete icon:*
+<img src="Screenshot_withoutDeleteIcon.png" width="225" height="400" />
+*With the delete icon:*
+<img src="Screenshot_withDeleteIcon.png" width="225" height="400" />
 
 ## Problem 2 - Splash Screen Enhancement
  - https://github.com/stefan-niedermann/nextcloud-notes/commit/472d549677ea0ed8a14400667a27a802fa925fed
